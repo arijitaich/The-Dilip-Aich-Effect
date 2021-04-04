@@ -35,7 +35,7 @@ data: $("#"+a2).serialize(),
      
 success:function(data){
 
-    $("#preloader").hide();
+    // $("#preloader").hide();
 
 
 $("#response_block").html(data);
