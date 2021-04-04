@@ -15,9 +15,9 @@
 function tony(e){
 // Activate this below only if you want to toggle Preloader during this event. 
 // $("#preloader").show();
-var datetime = new Date().today() + " @ " + new Date().timeNow();
+// var datetime = new Date().today() + " @ " + new Date().timeNow();
 
-console.log('Tony Started at ' + datetime);
+console.log('Tony Started');
 // Setting Up Variables. Remember, these variables should match the variables being set on the HTML element's end.
      var prot = $(e).attr("prot");
 
@@ -67,5 +67,5 @@ console.log('Tony Started at ' + datetime);
     error:function (){}
 
     });   
-console.log('Tony Transmission Ended at ' + datetime);
+console.log('Tony Transmission Ended');
 }
