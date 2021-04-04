@@ -14,9 +14,9 @@
 
 function black_widow(former) {
 	
-var datetime = new Date().today() + " @ " + new Date().timeNow();
+// var datetime = new Date().today() + " @ " + new Date().timeNow();
 
-console.log('Black Widow Started at ' + datetime);   
+console.log('Black Widow Started');   
 
 $("#preloader").show();
 
@@ -45,6 +45,6 @@ $("#response_block").html(data);
 error:function (){}
 
 });
-console.log('Black Widow Transmission Ended at ' + datetime);
+console.log('Black Widow Transmission Ended');
 
 }
