@@ -18,7 +18,7 @@ function black_widow(former) {
 
 console.log('Black Widow Started');   
 
-$("#preloader").show();
+// $("#preloader").show();
 
 var a2 = String(former);
 
